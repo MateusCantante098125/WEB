@@ -28,3 +28,16 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.footer__copyright {
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+/* Aumenta o tamanho da fonte dos itens da navbar */
+.navbar__item {
+  font-size: 18px; /* ajuste conforme necessário */
+  font-weight: 500; /* opcional: dá uma leve ênfase */
+}

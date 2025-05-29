@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Haas',
   tagline: 'F1 Team Dream ',
-  favicon: 'img/logo.png',
+  favicon: 'img/icon.jpg',
 
   // Set the production url of your site here
   url: 'https://github.com',
@@ -78,21 +78,19 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Beggining',
+        title: '',
         logo: {
           alt: 'Haas',
-          src: 'img/icon.jpg',
+          src: 'img/logo.png',
         },
         items: [
+          {to: '/docs/intro', label: 'Latest', position: 'left'},
+          {to: '/blog', label: 'Season', position: 'left'},
+          {to: '/src/pages/markdown-page.md', label: 'Team', position: 'left'},
+          {to: '/src/pages/markdown-page.md', label: 'Fans', position: 'left'},
+          {to: '/src/pages/markdown-page.md', label: 'Contacts', position: 'left'},
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About Us',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MateusCantante098125/WEB',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,10 +105,6 @@ const config = {
               {
                 label: 'About Us',
                 to: '/docs/about',
-              },
-              {
-                label: 'Contact Us',
-                to: '/docs/contact',
               },
               {
                 label: 'Careers',
@@ -134,26 +128,26 @@ const config = {
                 href: 'https://www.instagram.com/haasf1team/',
               },
               {
-                label: 'X',
+                label: 'Twitter',
                 href: 'https://x.com/haasf1team',
               },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/haasf1team',
-              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/MateusCantante09815/WEB',
+                label: 'Discord',
+                href: 'https://discord.gg/haasf1team',
+              },
+              {
+                label: 'Contact Us',
+                to: '/docs/contact',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Haas F1 Team Website, Built with Docusaurus by MateusCantante098125.`,
       },
       prism: {
         theme: prismThemes.github,
