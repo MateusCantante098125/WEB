@@ -29,11 +29,28 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Centraliza os textos do footer */
+.footer {
+  text-align: left;
+}
+
+/* Centraliza cada coluna de links no footer */
+.footer__links {
+  justify-content: left;
+}
+
+/* Garante que o copyright também fique centralizado */
 .footer__copyright {
   margin-top: 60px;
   text-align: center;
   width: 100%;
   display: block;
+}
+
+/* Opcional: centraliza títulos e itens dentro das colunas */
+.footer__title,
+.footer__item {
+  transform: translate(140px, 0);
 }
 
 /* Aumenta o tamanho da fonte dos itens da navbar */

@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            2025 Have Started 🚀
+            2025 Season Have Started 🚀
           </Link>
         </div>
       </div>

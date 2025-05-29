@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Haas',
-  tagline: 'F1 Team Dream ',
-  favicon: 'img/icon.jpg',
+  title: 'Haas F1 Team',
+  tagline: '',
+  favicon: 'img/icon.png',
 
   // Set the production url of your site here
   url: 'https://github.com',
@@ -81,7 +81,7 @@ const config = {
         title: '',
         logo: {
           alt: 'Haas',
-          src: 'img/logo.png',
+          src: 'img/icon.png',
         },
         items: [
           {to: '/docs/intro', label: 'Latest', position: 'left'},
