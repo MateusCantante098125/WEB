@@ -86,9 +86,9 @@ const config = {
         items: [
           {to: '/docs/intro', label: 'Latest', position: 'left'},
           {to: '/blog', label: 'Season', position: 'left'},
-          {to: '/src/pages/markdown-page.md', label: 'Team', position: 'left'},
-          {to: '/src/pages/markdown-page.md', label: 'Fans', position: 'left'},
-          {to: '/src/pages/markdown-page.md', label: 'Contacts', position: 'left'},
+          {to: '/markdown-page', label: 'Team', position: 'left'},
+          {to: '/markdown-page', label: 'Fans', position: 'left'},
+          {to: '/markdown-page', label: 'Contacts', position: 'left'},
           {
             href: 'https://github.com/MateusCantante098125/WEB',
             label: 'GitHub',
