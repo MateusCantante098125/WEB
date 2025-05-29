@@ -10,27 +10,24 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  title: 'Haas',
+  tagline: 'F1 Team Dream ',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/WEB/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'MateusCantante098125', // Usually your GitHub org/user name.
+  projectName: 'WEB', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // The branch that GitHub pages will deploy from.
+  trailingSlash: false, // Set to true if you want to add a trailing slash to all URLs
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -81,17 +78,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Beggining',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Haas',
+          src: 'img/icon.jpg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About Us',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -105,11 +102,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Haas F1 Team',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'About Us',
+                to: '/docs/about',
+              },
+              {
+                label: 'Contact Us',
+                to: '/docs/contact',
+              },
+              {
+                label: 'Careers',
+                to: '/docs/careers',
+              },
+              {
+                label: 'Partners',
+                to: '/docs/partners',
               },
             ],
           },
@@ -117,29 +126,29 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@HaasF1Team',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/haasf1team/',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/haasf1team',
               },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/haasf1team',
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/MateusCantante09815/WEB',
               },
             ],
           },
