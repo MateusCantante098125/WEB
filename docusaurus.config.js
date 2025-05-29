@@ -89,11 +89,6 @@ const config = {
           {to: '/markdown-page', label: 'Team', position: 'left'},
           {to: '/markdown-page', label: 'Fans', position: 'left'},
           {to: '/markdown-page', label: 'Contacts', position: 'left'},
-          {
-            href: 'https://github.com/MateusCantante098125/WEB',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -142,7 +137,7 @@ const config = {
               },
               {
                 label: 'Contact Us',
-                to: '/docs/contact',
+                to: '/contact',
               },
             ],
           },
